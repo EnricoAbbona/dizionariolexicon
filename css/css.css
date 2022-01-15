@@ -4,14 +4,16 @@
 	  height: 88px !important;
 	}
   }
-
-/* navbar */
-
-body {
+  
+  body {
 	margin: 0;
 	background-color: #f7f5ef;
 	font-family: 'Open Sans', sans-serif;
+	-webkit-tap-highlight-color: transparent;
 }
+/* navbar */
+
+
 
 .bottone_dizionario {
 	background-color: #4E35EA;
