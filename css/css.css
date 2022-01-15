@@ -6,10 +6,11 @@
   }
   
   body {
-	margin: 0;
+	margin: 0px;
 	background-color: #f7f5ef;
 	font-family: 'Open Sans', sans-serif;
 	-webkit-tap-highlight-color: transparent;
+	width: 100%;
 }
 /* navbar */
 
@@ -35,11 +36,15 @@
 	top: 0;
 	background-color: white;
 	width: 100%;
+	margin: auto;
+
 }
 
 .img_navbar {
 	align-items: center;
-	padding: 30px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+
 }
 
 .a_imgnavbar {
@@ -62,13 +67,12 @@ hr.navbar {
 }
 
 
+
 @media screen and (max-width: 500px) {
-	hr.navbar {
-		border: 3px solid #4E35EA;
-		border-radius: 7px;
-		width: 50px;
-	}
+	
+		
+
+	
 }
 
-/*home page*/
-
+/*home page*/ 
