@@ -1,6 +1,16 @@
+
+@media screen and (display-mode: standalone) {
+	header {
+	  height: 88px !important;
+	}
+  }
+
+/* navbar */
+
 body {
 	margin: 0;
 	background-color: #f7f5ef;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .bottone_dizionario {
@@ -50,8 +60,6 @@ hr.navbar {
 }
 
 
-/*VISUALIZZAZIONE DA MOBILE VERTICALE*/
-
 @media screen and (max-width: 500px) {
 	hr.navbar {
 		border: 3px solid #4E35EA;
@@ -59,3 +67,6 @@ hr.navbar {
 		width: 50px;
 	}
 }
+
+/*home page*/
+
