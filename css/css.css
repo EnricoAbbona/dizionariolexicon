@@ -14,7 +14,7 @@
 	-webkit-tap-highlight-color: transparent;
 	width: 100%;
 }
-/* navbar */
+/* navbar comm */
 
 .logo_img{
 	height: 4em;
@@ -84,7 +84,7 @@ hr.navbar {
 		height: 2em;
 		width: auto;
 	}
-	
+
 	.logo_img{
 		height: 2.5em;
 		width: auto;
