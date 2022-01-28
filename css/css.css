@@ -17,6 +17,11 @@
 /* navbar */
 
 .logo_img{
+	height: 4em;
+	width: auto;
+}
+
+.navb_img{
 	height: 3em;
 	width: auto;
 }
@@ -75,8 +80,13 @@ hr.navbar {
 
 @media screen and (max-width: 500px) {
 	
-	.logo_img{
+	.navb_img{
 		height: 2em;
+		width: auto;
+	}
+	
+	.logo_img{
+		height: 2.5em;
 		width: auto;
 	}
 	
