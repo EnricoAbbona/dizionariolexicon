@@ -14,7 +14,7 @@
 	-webkit-tap-highlight-color: transparent;
 	width: 100%;
 }
-/* navbar comm */
+/* navbar */
 
 .logo_img{
 	height: 4em;
@@ -93,3 +93,18 @@ hr.navbar {
 }
 
 /*home page*/ 
+
+h2{
+	text-align: center;
+	padding: 2%;
+	font-size: 30px;
+	font-weight:900;
+}
+
+@media screen and (max-width: 500px) {
+	
+h2 {
+
+	font-size: 20px;
+}
+}
