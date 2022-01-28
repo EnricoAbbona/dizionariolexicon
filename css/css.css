@@ -3,6 +3,8 @@
 	header {
 	  height: 88px !important;
 	}
+
+
   }
   
   body {
@@ -14,7 +16,10 @@
 }
 /* navbar */
 
-
+.logo_img{
+	height: 3em;
+	width: auto;
+}
 
 .bottone_dizionario {
 	background-color: #4E35EA;
@@ -70,8 +75,10 @@ hr.navbar {
 
 @media screen and (max-width: 500px) {
 	
-		
-
+	.logo_img{
+		height: 2em;
+		width: auto;
+	}
 	
 }
 
