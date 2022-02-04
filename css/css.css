@@ -112,6 +112,8 @@ hr.navbar {
 	cursor: pointer;
 }
 
+
+
 img.feature{
 	width: 100%;
 	height: auto;
@@ -137,7 +139,7 @@ img.feature{
 	background-color: #4E35EA;
 	border: none;
 	color: white;
-	padding: 2em 4em;
+	padding: 15px 32px;
 	text-decoration: none;
 	display: inline-block;
 	border-radius: 30px;
