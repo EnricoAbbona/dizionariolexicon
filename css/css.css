@@ -14,7 +14,9 @@
 	-webkit-tap-highlight-color: transparent;
 	width: 100%;
 }
-/* navbar */
+/* HOMEPAGE */
+
+/* INIZIO NAVBAR  */
 
 .logo_img{
 	height: 4em;
@@ -26,19 +28,7 @@
 	width: auto;
 }
 
-.bottone_dizionario {
-	background-color: #4E35EA;
-	border: none;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	border-radius: 30px;
-	font-size: 16px;
-	margin: 4px 2px;
-	cursor: pointer;
-}
+
 
 .navbar {
 	position: -webkit-sticky;
@@ -92,19 +82,51 @@ hr.navbar {
 	
 }
 
-/*home page*/ 
+/*FINE NAVBAR*/ 
 
-h2{
-	text-align: center;
-	padding: 2%;
-	font-size: 30px;
-	font-weight:900;
+
+.features {
+
+	padding-top: 4em;
 }
 
-@media screen and (max-width: 500px) {
+
+.benvenuto {
+	text-align: center;	
+	margin: auto;
+	width: 25%;
+	border: 3px solid #73AD21;
+	padding: 10px;
 	
-h2 {
-
-	font-size: 20px;
 }
+
+.bottone_dizionario {
+	background-color: #4E35EA;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 30px;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+img.feature{
+	width: 100%;
+	height: 100%;
+}
+@media screen and (max-width: 700px) {
+	
+.benvenuto {
+	text-align: center;	
+	margin: auto;
+	width: 99vw;
+	border: 3px solid #73AD21;
+
+	
+}
+
+
 }
