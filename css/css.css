@@ -68,7 +68,7 @@ hr.navbar {
 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
 	
 	.navb_img{
 		height: 2em;
@@ -129,8 +129,23 @@ img.feature{
 
 .features {
 
-	padding-top: 8em;
+	padding-top: 6em;
+	
 }
+
+.bottone_dizionario {
+	background-color: #4E35EA;
+	border: none;
+	color: white;
+	padding: 2em 4em;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 30px;
+	font-size: 20px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
 
 
 }
