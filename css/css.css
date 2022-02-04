@@ -131,7 +131,7 @@ img.feature{
 
 .features {
 
-	padding-top: 6em;
+	padding-top: 4em;
 	
 }
 
@@ -139,7 +139,7 @@ img.feature{
 	background-color: #4E35EA;
 	border: none;
 	color: white;
-	padding: 2em 4em;
+	padding: 1em 2em;
 	text-decoration: none;
 	display: inline-block;
 	border-radius: 30px;
