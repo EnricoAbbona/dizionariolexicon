@@ -9,7 +9,15 @@
 		margin-top: 22px;
 	}
 
-
+	.navbar {
+		position: -webkit-fixed;
+		position: fixed;
+		top: 0;
+		background-color: white;
+		width: 100%;
+		margin: auto;
+	
+	}
   }
   
   body {
@@ -43,8 +51,8 @@
 
 
 .navbar {
-	position: -webkit-fixed;
-	position: fixed;
+	position: -webkit-sticky;
+	position: sticky;
 	top: 0;
 	background-color: white;
 	width: 100%;
@@ -101,7 +109,7 @@ hr.navbar {
 
 .features {
 
-	margin-top: 11px;
+	margin:0px;
 }
 
 
