@@ -38,8 +38,8 @@
 
 
 .navbar {
-	position: -webkit-sticky;
-	position: sticky;
+	position: -webkit-fixed;
+	position: fixed;
 	top: 0;
 	background-color: white;
 	width: 100%;
@@ -126,7 +126,7 @@ hr.navbar {
 	background-color: #ffffff;
 	border: 3px solid #4E35EA;
 	color: #4E35EA;
-	padding: 12px 32px;
+	padding: 11px 32px;
 	transition-duration: 0.35s;
 }
 
@@ -138,6 +138,8 @@ img.feature{
 	width: 100%;
 	height: auto;
 }
+
+
 @media screen and (max-width: 700px) {
 	
 .benvenuto {

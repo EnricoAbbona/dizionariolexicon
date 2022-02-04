@@ -4,8 +4,8 @@ function hasTouch() {
            || navigator.msMaxTouchPoints > 0;
   }
   
-  if (hasTouch()) { // remove all the :hover stylesheets
-    try { // prevent exception on browsers not supporting DOM styleSheets properly
+  if (hasTouch()) { 
+    try { 
       for (var si in document.styleSheets) {
         var styleSheet = document.styleSheets[si];
         if (!styleSheet.rules) continue;
