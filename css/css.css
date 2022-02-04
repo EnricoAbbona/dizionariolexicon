@@ -119,12 +119,17 @@ img.feature{
 @media screen and (max-width: 700px) {
 	
 .benvenuto {
-	text-align: center;	
+	text-align: center;
 	margin: auto;
 	width: 100vw;
 	padding: 0px;
 
 	
+}
+
+.features {
+
+	padding-top: 3em;
 }
 
 
