@@ -1,7 +1,7 @@
 
 @media screen and (display-mode: standalone) {
 	header {
-	  height: 88px !important;
+	  height: 800px !important;
 	}
 
 
@@ -38,13 +38,12 @@
 
 
 .navbar {
-	position: -webkit-fixed;
-	position: fixed;
+	position: -webkit-sticky;
+	position: sticky;
 	top: 0;
 	background-color: white;
 	width: 100%;
 	margin: auto;
-	padding-top: env(safe-area-inset-top);
 
 }
 
@@ -97,7 +96,7 @@ hr.navbar {
 
 .features {
 
-	margin:mt-11 pt-safe-top;
+	padding: 0px;
 }
 
 
