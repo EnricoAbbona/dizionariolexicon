@@ -1,11 +1,11 @@
 
 @media screen and (display-mode: standalone) {
-	header {
-	  height: 100px !important;
+	.navbar {
+	  height: 88px !important;
 	  padding-top: env(safe-area-inset-top);
 	}
 
-	main {
+	.features {
 		margin-top: 22px;
 	}
 
@@ -97,13 +97,11 @@ hr.navbar {
 }
 
 /*FINE NAVBAR*/ 
-main {
-	margin-top: 11px;
-}
+
 
 .features {
 
-	padding: 0px;
+	margin-top: 11px;
 }
 
 
