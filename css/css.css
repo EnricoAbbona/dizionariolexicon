@@ -28,6 +28,13 @@
 	width: auto;
 }
 
+.navb_img:hover{
+
+	height: 3.5em;
+	width: auto;
+	transition-duration: 0.35s;
+}
+
 
 
 .navbar {
@@ -80,6 +87,13 @@ hr.navbar {
 		width: auto;
 	}
 	
+	.navb_img:hover{
+
+		height: 3em;
+		width: auto;
+		transition-duration: 0s;
+	}
+	
 }
 
 /*FINE NAVBAR*/ 
@@ -111,6 +125,17 @@ hr.navbar {
 	margin: 4px 2px;
 	cursor: pointer;
 }
+
+.bottone_dizionario:hover{
+
+	background-color: #ffffff;
+	border: 3px solid #4E35EA;
+	color: #4E35EA;
+	padding: 12px 32px;
+	transition-duration: 0.35s;
+}
+
+
 
 
 
