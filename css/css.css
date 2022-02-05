@@ -8,7 +8,7 @@
 		margin: auto;
 	}
 	main {
-		margin-top: 150px;
+		margin-top: 100px;
 	}
 }
 
@@ -137,7 +137,7 @@ img.feature {
 		padding: 0px;
 	}
 	.features {
-		padding-top: 3em;
+		padding-top: 1em;
 	}
 	.bottone_dizionario {
 		background-color: #4E35EA;
@@ -146,7 +146,7 @@ img.feature {
 		padding: 0.8em 1.6em;
 		text-decoration: none;
 		display: inline-block;
-		border-radius: 30px;
+		border-radius: 25px;
 		font-size: 20px;
 		margin: 4px 2px;
 		cursor: pointer;
