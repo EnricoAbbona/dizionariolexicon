@@ -10,6 +10,10 @@
 	main {
 		margin-top: 120px;
 	}
+
+	.bottone_dizionario {
+		padding: 0.8em 1.6em;
+	}
 }
 
 body {
