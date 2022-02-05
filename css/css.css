@@ -3,20 +3,17 @@
 	.navbar {
 	  height: 88px !important;
 	  padding-top: env(safe-area-inset-top);
+	  position: fixed !important;
+	  top: 0;
+	  background-color: white;
+      width: 100%;
+	  margin: auto;
 	}
 
 	.features {
-		margin-top: 22px;
+		margin-top: 60px;
 	}
 
-	.navbar {
-		position: fixed !important;
-		top: 0;
-		background-color: white;
-		width: 100%;
-		margin: auto;
-	
-	}
   }
   
   body {
