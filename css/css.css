@@ -129,26 +129,29 @@ img.feature {
 	height: auto;
 }
 
+@media screen and (max-width: 1200px) {
+
+	.benvenuto {
+		text-align: center;
+		margin: auto;
+		width: 50vw;
+		padding: 0px;
+	}
+
+}
+
 @media screen and (max-width: 700px) {
 	.benvenuto {
 		text-align: center;
 		margin: auto;
-		width: 100vw;
+		width: 90vw;
 		padding: 0px;
 	}
 	.features {
-		padding-top: 1em;
+		padding-top: 2em;
 	}
 	.bottone_dizionario {
-		background-color: #4E35EA;
-		border: none;
-		color: white;
 		padding: 0.8em 1.6em;
-		text-decoration: none;
-		display: inline-block;
-		border-radius: 25px;
-		font-size: 25px;
-		margin: 4px 2px;
-		cursor: pointer;
 	}
 }
+
