@@ -1,50 +1,47 @@
-
 @media screen and (display-mode: standalone) {
 	.navbar {
-	  padding-top: env(safe-area-inset-top);
-	  position: fixed !important;
-	  top: 0;
-	  background-color: white;
-      width: 100%;
-	  margin: auto;
+		padding-top: env(safe-area-inset-top);
+		position: fixed !important;
+		top: 0;
+		background-color: white;
+		width: 100%;
+		margin: auto;
 	}
-
 	main {
-		margin-top: 22px;
+		margin-top: 300px;
 		padding-top: safe-top;
 	}
+}
 
-  }
-  
-  body {
+body {
 	margin: 0px;
 	background-color: #f7f5ef;
 	font-family: 'Open Sans', sans-serif;
 	-webkit-tap-highlight-color: transparent;
 	width: 100%;
 }
+
+
 /* HOMEPAGE */
+
 
 /* INIZIO NAVBAR  */
 
-.logo_img{
+.logo_img {
 	height: 4em;
 	width: auto;
 }
 
-.navb_img{
+.navb_img {
 	height: 3em;
 	width: auto;
 }
 
-.navb_img:hover{
-
+.navb_img:hover {
 	height: 3.5em;
 	width: auto;
 	transition-duration: 0.35s;
 }
-
-
 
 .navbar {
 	position: -webkit-sticky;
@@ -53,14 +50,12 @@
 	background-color: white;
 	width: 100%;
 	margin: auto;
-
 }
 
 .img_navbar {
 	align-items: center;
 	padding-bottom: 30px;
 	padding-top: 30px;
-
 }
 
 .a_imgnavbar {
@@ -82,39 +77,29 @@ hr.navbar {
 	width: 70px;
 }
 
-
-
 @media screen and (max-width: 700px) {
-	
-	.navb_img{
+	.navb_img {
 		height: 2em;
 		width: auto;
 	}
-
-	.logo_img{
+	.logo_img {
 		height: 2.5em;
 		width: auto;
 	}
-	
-
-	
 }
 
-/*FINE NAVBAR*/ 
 
+/*FINE NAVBAR*/
 
 .features {
-
-	margin:0px;
+	margin: 0px;
 }
 
-
 .benvenuto {
-	text-align: center;	
+	text-align: center;
 	margin: auto;
-	width: 30%;	
+	width: 30%;
 	padding: 10px;
-	
 }
 
 .bottone_dizionario {
@@ -130,8 +115,7 @@ hr.navbar {
 	cursor: pointer;
 }
 
-.bottone_dizionario:hover{
-
+.bottone_dizionario:hover {
 	background-color: #ffffff;
 	border: 3px solid #4E35EA;
 	color: #4E35EA;
@@ -139,44 +123,31 @@ hr.navbar {
 	transition-duration: 0.35s;
 }
 
-
-
-
-
-img.feature{
+img.feature {
 	width: 100%;
 	height: auto;
 }
 
-
 @media screen and (max-width: 700px) {
-	
-.benvenuto {
-	text-align: center;
-	margin: auto;
-	width: 100vw;
-	padding: 0px;
-
-	
-}
-
-.features {
-
-	padding-top: 3em;
-	
-}
-
-.bottone_dizionario {
-	background-color: #4E35EA;
-	border: none;
-	color: white;
-	padding: 0.8em 1.6em;
-	text-decoration: none;
-	display: inline-block;
-	border-radius: 30px;
-	font-size: 20px;
-	margin: 4px 2px;
-	cursor: pointer;
-}
-
+	.benvenuto {
+		text-align: center;
+		margin: auto;
+		width: 100vw;
+		padding: 0px;
+	}
+	.features {
+		padding-top: 3em;
+	}
+	.bottone_dizionario {
+		background-color: #4E35EA;
+		border: none;
+		color: white;
+		padding: 0.8em 1.6em;
+		text-decoration: none;
+		display: inline-block;
+		border-radius: 30px;
+		font-size: 20px;
+		margin: 4px 2px;
+		cursor: pointer;
+	}
 }
