@@ -1,7 +1,6 @@
 
 @media screen and (display-mode: standalone) {
 	.navbar {
-	  height: 88px !important;
 	  padding-top: env(safe-area-inset-top);
 	  position: fixed !important;
 	  top: 0;
@@ -10,8 +9,8 @@
 	  margin: auto;
 	}
 
-	.features {
-		margin-top: 60px;
+	main {
+		margin-top: 22px;
 	}
 
   }
