@@ -8,8 +8,7 @@
 		margin: auto;
 	}
 	main {
-		margin-top: 300px;
-		padding-top: safe-top;
+		margin-top: 150px;
 	}
 }
 
@@ -35,6 +34,8 @@ body {
 .navb_img {
 	height: 3em;
 	width: auto;
+	border: 0px;
+	align-items:"middle"
 }
 
 .navb_img:hover {
