@@ -8,7 +8,8 @@
 		margin: auto;
 	}
 	main {
-		/*margin-top: 120px;*/
+		margin-top: 120px;
+		scroll-margin-top: 120px;
 
 	}
 	.bottone_dizionario {
