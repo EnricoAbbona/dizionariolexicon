@@ -3,25 +3,25 @@
   "short_name": "Lexicon",
   "icons": [
     {
-      "src": "resources/asset/loghi/manifest-icon-192.maskable.png",
+      "src": "resources/asset/icone/manifest-icon-192.maskable.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "resources/asset/loghi/manifest-icon-192.maskable.png",
+      "src": "resources/asset/icone/manifest-icon-192.maskable.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "resources/asset/loghi/manifest-icon-512.maskable.png",
+      "src": "resources/asset/icone/manifest-icon-512.maskable.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "resources/asset/loghi/manifest-icon-512.maskable.png",
+      "src": "resources/asset/icone/manifest-icon-512.maskable.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
