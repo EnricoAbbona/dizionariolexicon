@@ -23,21 +23,28 @@ function hasTouch() {
 
   function navbar_change(){
     var whereiam =(document.title.substring(21,document.title.length));
-    console.log(whereiam);
+    console.log("mi trovo nella sezione: " + whereiam);
 
     switch (whereiam){
       case "parole salvate":
-        alert("funziona");
-        document.getElementById("modifica").innerHTML=('<IMG class="navb_img" SRC="../resources/navbar/sezione_parole_salvate_colorato.svg"   ALT="parole salvate"></IMG>');
+        document.getElementById("modifica").innerHTML=('<IMG class="navb_img" SRC="../resources/navbar/sezione_parole_salvate_colorato.png"   ALT="parole salvate"></IMG>');
         break;
       
       case "dizionario":
-        document.getElementById("modifica").innerHTML=('<IMG class="navb_img" SRC="../resources/navbar/sezione_dizionario_colorato.svg"   ALT="dizionario"></IMG>');
+        document.getElementById("modifica").innerHTML=('<IMG class="navb_img" SRC="../resources/navbar/sezione_dizionario_colorato.png"   ALT="dizionario"></IMG>');
         break;
 
       case "homepage":
           document.getElementById("homepage").innerHTML=('<img class="logo_img" src="resources/navbar/logo_navbar_colorato.png" alt="homepage">');
           break;
+
+      case "cultura e letteratura":
+        document.getElementById("modifica").innerHTML=('<IMG class="navb_img" SRC="../resources/navbar/sezione_letteratura_cultura_colorato.png" ALT="lingua e cultura"></IMG>');
+        break;
+
+      case "impostazioni":
+  document.getElementById("modifica").innerHTML=('<IMG class="navb_img" SRC="../resources/navbar/sezione_impostazioni_colorato.png" ALT="impostazioni">');
+        break;
     }
 
   }

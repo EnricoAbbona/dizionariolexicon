@@ -83,11 +83,11 @@ hr.navbar {
 
 @media screen and (max-width: 700px) {
 	.navb_img {
-		height: 1.5em;
+		height: 2em;
 		width: auto;
 	}
 	.logo_img {
-		height: 2.25em;
+		height: 2.75em;
 		width: auto;
 	}
 }
