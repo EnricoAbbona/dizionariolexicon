@@ -1,32 +1,76 @@
-<html>
+<!DOCTYPE html>
+<html lang="it">
    <head>
+      <!-- TAG META -->
+      <meta charset="UTF-8">
       <link rel="stylesheet" type="text/css" href="../css/css.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
       <title>Dizionario Lexicon</title>
+      <!-- FONT -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,800&display=swap" rel="stylesheet">
+      <!-- ANIMAZIONI E MANIFEST -->
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+      <script src="../script/script.js"></script>
+      <link rel="manifest" href="../site.webmanifest">
+      <!-- IMMAGINI DIVERSE RISOLUZIONI E FAVICON -->
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <link rel="icon" type="image/x-icon" sizes="1000x10000" href="../resources/loghi/dizionario.ico">
+      <link rel="apple-touch-icon" href="../resources/asset/icone/apple-icon-180.png">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-2048-2732.jpg" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-2732-2048.jpg" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-1668-2388.jpg" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-2388-1668.jpg" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-1536-2048.jpg" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-2048-1536.jpg" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-1668-2224.jpg" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-2224-1668.jpg" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-1620-2160.jpg" media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-2160-1620.jpg" media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-1284-2778.jpg" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-2778-1284.jpg" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-1170-2532.jpg" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-2532-1170.jpg" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-1125-2436.jpg" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-2436-1125.jpg" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-1242-2688.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-2688-1242.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-828-1792.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-1792-828.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-1242-2208.jpg" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-2208-1242.jpg" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-750-1334.jpg" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-1334-750.jpg" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-640-1136.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+      <link rel="apple-touch-startup-image" href="../resources/asset/schermate_caricamento/apple-splash-1136-640.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
    </head>
-   <body>
+   <body onload="navbar_change()">
+      <!--INIZIO NAVBAR-->
       <div class="navbar">
          <table class="img_navbar">
             <tr>
                <td>
-                  <a href="parole_salvate.html" class="a_imgnavbar"><IMG SRC="../resources/navbar/sezione_parole_salvate.png" ALIGN="middle" BORDER="0" ALT="parole salvate"></a> 
+                  <a href="parole_salvate.html" class="a_imgnavbar"><IMG class="navb_img" SRC="../resources/navbar/sezione_parole_salvate.svg"   ALT="parole salvate"></a> 
                </td>
                <td>
-                  <a href="dizionario.html" class="a_imgnavbar"><IMG SRC="../resources/navbar/sezione_dizionario.viola.png" ALIGN="middle" BORDER="0" ALT="dizionario"></a>
+                  <a href="dizionario.html" class="a_imgnavbar" id="modifica"></a>
                </td>
                <td>
-                  <a href="../index.html"> <img class="prova" src="../resources/navbar/logo_navbar.png"> </a>
-                  <!-- <a href="sezioni/parole_savlate.html" class="a_imgnavbar"> <IMG SRC="resources/navbar/sezione_parole_salvate.png" ALIGN="middle" BORDER="0" ALT="logo"> </a> -->
-                  
+                  <a href="../index.html" id="homepage"> <img class="logo_img" src="../resources/navbar/logo_navbar.png" alt="homepage"> </a>
                </td>
                <td>
-                  <a href="cultura_letterautra.html" class="a_imgnavbar"><IMG SRC="../resources/navbar/sezione_letteratura_cultura.png" ALIGN="middle" BORDER="0" ALT="lingua e cultura"></a>
+                  <a href="cultura_letterautra.html" class="a_imgnavbar"><IMG class="navb_img" SRC="../resources/navbar/sezione_letteratura_cultura.svg" ALT="lingua e cultura"></a>
                </td>
                <td>
-                  <a href="impostazioni.html" class="a_imgnavbar"><IMG SRC="../resources/navbar/impostazioni.png" ALIGN="middle" BORDER="0" ALT="impostazioni"></a>
+                  <a href="impostazioni.html" class="a_imgnavbar"><IMG class="navb_img" SRC="../resources/navbar/sezione_impostazioni.svg" ALT="impostazioni"></a>
                </td>
             </tr>
          </table>
       </div>
+      <!-- FINE NAVBAR -->
    </body>
 </html>

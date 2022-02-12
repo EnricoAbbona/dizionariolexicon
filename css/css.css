@@ -35,7 +35,7 @@ body {
 }
 
 .navb_img {
-	height: 3em;
+	height: 2.5em;
 	width: auto;
 	border: 0px;
 	align-items: "middle"
@@ -83,11 +83,11 @@ hr.navbar {
 
 @media screen and (max-width: 700px) {
 	.navb_img {
-		height: 2em;
+		height: 1.5em;
 		width: auto;
 	}
 	.logo_img {
-		height: 2.5em;
+		height: 2.25em;
 		width: auto;
 	}
 }
@@ -124,7 +124,7 @@ hr.navbar {
 	border: 3px solid #4E35EA;
 	color: #4E35EA;
 	padding: 11px 32px;
-	transition-duration: 0.35s;
+	transition-duration: 0.5s;
 }
 
 img.feature {

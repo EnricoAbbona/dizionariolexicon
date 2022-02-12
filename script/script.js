@@ -20,3 +20,24 @@ function hasTouch() {
       }
     } catch (ex) {}
   }
+
+  function navbar_change(){
+    var whereiam =(document.title.substring(21,document.title.length));
+    console.log(whereiam);
+
+    switch (whereiam){
+      case "parole salvate":
+        alert("funziona");
+        document.getElementById("modifica").innerHTML=('<IMG class="navb_img" SRC="../resources/navbar/sezione_parole_salvate_colorato.svg"   ALT="parole salvate"></IMG>');
+        break;
+      
+      case "dizionario":
+        document.getElementById("modifica").innerHTML=('<IMG class="navb_img" SRC="../resources/navbar/sezione_dizionario_colorato.svg"   ALT="dizionario"></IMG>');
+        break;
+
+      case "homepage":
+          document.getElementById("homepage").innerHTML=('<img class="logo_img" src="resources/navbar/logo_navbar_colorato.png" alt="homepage">');
+          break;
+    }
+
+  }
