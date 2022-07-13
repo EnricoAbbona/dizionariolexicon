@@ -23,15 +23,15 @@ function hasTouch() {
 
   function navbar_change(){
     var whereiam =(document.title.substring(21,document.title.length));
-    console.log("mi trovo nella sezione: " + whereiam);
+   // console.log("mi trovo nella sezione: " + whereiam); commentato perchè non necessario
 
     switch (whereiam){
       case "parole salvate":
-        document.getElementById("modifica").innerHTML=('<IMG class="navb_img" SRC="../resources/navbar/sezione_parole_salvate_colorato.png"   ALT="parole salvate"></IMG>');
+          document.getElementById("modifica").innerHTML=('<IMG class="navb_img navb_img_selected" SRC="../resources/navbar/sezione_parole_salvate_colorato.png"   ALT="parole salvate"></IMG>');
         break;
       
       case "dizionario":
-        document.getElementById("modifica").innerHTML=('<IMG class="navb_img" SRC="../resources/navbar/sezione_dizionario_colorato.png"   ALT="dizionario"></IMG>');
+          document.getElementById("modifica").innerHTML=('<IMG class="navb_img navb_img_selected" SRC="../resources/navbar/sezione_dizionario_colorato.png"   ALT="dizionario"></IMG>');
         break;
 
       case "homepage":
@@ -39,12 +39,13 @@ function hasTouch() {
           break;
 
       case "cultura e letteratura":
-        document.getElementById("modifica").innerHTML=('<IMG class="navb_img" SRC="../resources/navbar/sezione_letteratura_cultura_colorato.png" ALT="lingua e cultura"></IMG>');
+          document.getElementById("modifica").innerHTML=('<IMG class="navb_img navb_img_selected" SRC="../resources/navbar/sezione_letteratura_cultura_colorato.png" ALT="lingua e cultura"></IMG>');
         break;
 
       case "impostazioni":
-  document.getElementById("modifica").innerHTML=('<IMG class="navb_img" SRC="../resources/navbar/sezione_impostazioni_colorato.png" ALT="impostazioni">');
+          document.getElementById("modifica").innerHTML=('<IMG class="navb_img navb_img_selected" SRC="../resources/navbar/sezione_impostazioni_colorato.png" ALT="impostazioni">');
         break;
     }
-
+     
   }
+  

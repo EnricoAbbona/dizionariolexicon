@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="it">
    <head>
-      <!-- TAG META -->
+     <!-- TAG META -->
       <meta charset="UTF-8">
       <link rel="stylesheet" type="text/css" href="css/css.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
@@ -73,17 +73,47 @@
       </div>
       <!-- FINE NAVBAR -->
       <main>
-         <div class="features">
-            <div class="benvenuto animazione">
-               <img src="resources/loghi/logo_colorato.png" alt="logo lexicon" class="feature">
-               <p class="feature">Benvenuti nel dizionario  Lexicon, il primo vero dizionario online gratis che mantiene l’esperienza di quello cartaceo </p>
-               <a href="sezioni/dizionario.html" class="bottone_dizionario">  Vai al dizionario </a>
-            </div>
+         <div class="contenitore-centrale animazione">
+            <img src="resources/loghi/logo_colorato.png" alt="logo lexicon" class="logo-benvenuto">
+            <p>Benvenuti nel dizionario  Lexicon, il primo vero dizionario online gratis che mantiene l’esperienza di quello cartaceo </p>
+            <a href="sezioni/dizionario.html" class="bottone_dizionario">Vai al dizionario</a>
          </div>
+         <div class="features">
+            <br><br>
+
+         <div id="content1">
+            <img src="resources/lettore.svg" alt="lettore" class="feature">
+            <p class="font-30 evidenziato">Perchè scegliere noi?</p>
+            <p>A differenza degli altri dizionari online, i quali sono a pagamento, o in cui è disponibile solo la funzione per ricercare la parola desiderata, il dizionario Lexicon mantiene l’esperienza di un comune dizionario cartaceo.</p>
+         </div>
+
+         
+         <div id="content2">
+            <img src="resources/struttura.svg" alt="lettore" class="feature">
+            <p class="font-30 evidenziato">Struttura organizzata</p> 
+            <p> Grazie all’organizzazione del nostro sito, avrete la possibilità di scorrere la lista delle parole, disposte comodamente in ordine alfabetico e raggruppate in diverse sezioni. In questo modo potrete ricercare manualmente una parola come fate quotidianamente con il vostro dizionario fisico, ma molto più velocemente.</p>
+         </div>
+
+         <div id="content3">
+            <img src="resources/ricerca.svg" alt="lettore" class="feature">
+            <p class="font-30 evidenziato">Funzione di ricerca</p> 
+            <p> Nonostante ci sia la possibilità di navigare nel dizionario per mantenere la vera esperienza del suo utilizzo, è stata comunque implementata anche la barra di ricerca, che vi permette di trovare direttamente la parola che state cercando senza perdere troppo tempo.</p>
+         </div>
+
+         <div id="content4">
+            <img src="resources/salvata.svg" alt="lettore" class="feature">
+            <p class="font-30 evidenziato">Segnalibro</p> 
+            <p>Questa funzione vi permette di salvare temporaneamente la parola che avete appena trovato, in modo tale da poter ricercare altre parole e riuscire a tradurre comodamente la vostra frase, senza dover effettuare più ricerche per la medesima parola.</p>
+         </div>
+         </div>
+         <footer>&copy dizionario Lexicon 2022</footer>
       </main>
+               <!-- AGGIUSTARE FOOTER -->
       <!-- SCRIPT ANIMAZIONE -->
      <script>
          ScrollReveal().reveal('.animazione', { distance: '50px', duration:1500, easing: 'cubic-bezier(.251, .62, .355, 1)' });
       </script>
+      <!-- AUTO REFRESH -->
+      <script type="text/javascript" src="https://livejs.com/live.js"></script>
    </body>
 </html>

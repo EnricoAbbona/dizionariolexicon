@@ -1,0 +1,54 @@
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.parola{
+    width: 100%;
+    border-top: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.salva-parola{
+    position: relative;
+    width: 30px;
+    margin-top: 2%;
+    height: auto;
+    left: 95%;
+    z-index: -2;
+}
+
+h3{
+    position: relative;
+    text-transform: uppercase;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 800;
+    font-size: 1.7em;
+    left: 5%;
+    margin: 0px;
+    width:fit-content;
+    z-index: -2;
+    max-width: 20%;
+}
+
+.underline{
+    position: relative;
+    font-size: 1em;
+    font-weight: 300;
+    left:5%;
+    margin: 1px;
+    width: 94%;
+    z-index: -2;
+    width: fit-content;
+}
+
+.traduzione{
+    position: relative;
+    font-size: 1.1em;
+    font-weight: 400;
+    left:5%;
+    margin: 20px 0px 20px 0px;
+    width: fit-content;
+    z-index: -2;
+}
+

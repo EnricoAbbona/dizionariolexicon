@@ -1,6 +1,5 @@
  @media screen and (display-mode: standalone) {
 	.navbar {
-		padding-top: env(safe-area-inset-top);
 		position: fixed !important;
 		top: 0;
 		background-color: white;
@@ -21,8 +20,16 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	-webkit-tap-highlight-color: transparent;
 	width: 100%;
+	font-size: 20px;
 }
 
+.font-30 {
+	font-size: 30px;
+}
+
+.evidenziato {
+	font-weight: bold;
+}
 
 /* HOMEPAGE */
 
@@ -39,6 +46,12 @@ body {
 	width: auto;
 	border: 0px;
 	align-items: "middle"
+}
+
+	.navb_img_selected{
+	height: 3em;
+	width: auto;
+
 }
 
 .navb_img:hover {
@@ -81,6 +94,8 @@ hr.navbar {
 	width: 70px;
 }
 
+
+
 @media screen and (max-width: 700px) {
 	.navb_img {
 		height: 2em;
@@ -90,21 +105,47 @@ hr.navbar {
 		height: 2.75em;
 		width: auto;
 	}
+	.navb_img_selected{
+		height: 2.4em;
+		width: auto;
+		}
 }
 
 
 /*FINE NAVBAR*/
 
 .features {
-	margin: 0px;
+	display: grid;
+	margin: 5px;
+	text-align: center;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	grid-template-areas:
+  "content1 content1 content1"
+  "content2 content3 content4"
+  "footer footer footer";
+	grid-gap: 0.2rem;
 }
 
-.benvenuto {
+footer{
+	grid-area: footer;
+	bottom: 0px;
+	width: 100%;
+	height: 2.5rem;   
+	background-color: black;
 	text-align: center;
-	margin: auto;
-	width: 30%;
-	padding: 10px;
+	color: white;
+	font-size: 12px;
 }
+
+
+.contenitore-centrale {
+	margin: auto;
+	width: 40%;
+	padding: 1em;
+	text-align: center;
+}
+
 
 .bottone_dizionario {
 	background-color: #4E35EA;
@@ -127,25 +168,48 @@ hr.navbar {
 	transition-duration: 0.5s;
 }
 
-img.feature {
-	width: 100%;
+#content1{
+	grid-area: content1;
+}
+
+#content2{
+	grid-area: content2;
+}
+
+#content3{
+	grid-area: content3;
+}
+
+#content4{
+	grid-area: content4;
+}
+
+img.logo-benvenuto {
+	width: 90%;
 	height: auto;
 }
 
-@media screen and (max-width: 1200px) {
-	.benvenuto {
-		text-align: center;
-		margin: auto;
-		width: 50vw;
-		padding: 0px;
-	}
+img.feature {
+	width: 6em;
+	height: auto;
 }
 
-@media screen and (max-width: 700px) {
-	.benvenuto {
+main{
+	height: 100%;
+}
+
+
+.separatore{
+	display: block;
+	width: 100%;
+}
+
+
+@media screen and (max-width: 850px) {
+	.contenitore-centrale {
 		text-align: center;
 		margin: auto;
-		width: 90vw;
+		width: 90%;
 		padding: 0px;
 	}
 	.features {
@@ -154,4 +218,16 @@ img.feature {
 	.bottone_dizionario {
 		padding: 0.8em 1.6em;
 	}
+
+	.features {	
+		grid-template-columns: 1fr ;
+		grid-template-areas:
+	  "content1"
+	  "content2"
+	  "content3"
+	  "content4"
+	  "footer";
+	  grid-column-gap: 1rem;
+	}
+	
 }

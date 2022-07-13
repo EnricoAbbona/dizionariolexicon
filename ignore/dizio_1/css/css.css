@@ -1,0 +1,158 @@
+ @media screen and (display-mode: standalone) {
+	.navbar {
+		padding-top: env(safe-area-inset-top);
+		position: fixed !important;
+		top: 0;
+		background-color: white;
+		width: 100%;
+		margin: auto;
+	}
+	main {
+		margin-top: 120px;
+	}
+	.bottone_dizionario {
+		padding: 0.8em 1.6em;
+	}
+}
+
+body {
+	margin: 0px;
+	background-color: #f7f5ef;
+	font-family: 'Open Sans', sans-serif;
+	-webkit-tap-highlight-color: transparent;
+	width: 100%;
+}
+
+
+/* HOMEPAGE */
+
+
+/* INIZIO NAVBAR  */
+
+.logo_img {
+	height: 4em;
+	width: auto;
+}
+
+.navb_img {
+	height: 3em;
+	width: auto;
+	border: 0px;
+	align-items: "middle"
+}
+
+.navb_img:hover {
+	height: 3.5em;
+	width: auto;
+	transition-duration: 0.35s;
+}
+
+.navbar {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color: white;
+	width: 100%;
+	margin: auto;
+	height: 100px;
+}
+
+.img_navbar {
+	align-items: center;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.a_imgnavbar {
+	padding: 20px;
+}
+
+table {
+	width: 100%;
+}
+
+td {
+	width: 20%;
+	text-align: center;
+}
+
+hr.navbar {
+	border: 3px solid #4E35EA;
+	border-radius: 7px;
+	width: 70px;
+}
+
+@media screen and (max-width: 700px) {
+	.navb_img {
+		height: 2em;
+		width: auto;
+	}
+	.logo_img {
+		height: 2.5em;
+		width: auto;
+	}
+}
+
+
+/*FINE NAVBAR*/
+
+.features {
+	margin: 0px;
+}
+
+.benvenuto {
+	text-align: center;
+	margin: auto;
+	width: 30%;
+	padding: 10px;
+}
+
+.bottone_dizionario {
+	background-color: #4E35EA;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 30px;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.bottone_dizionario:hover {
+	background-color: #ffffff;
+	border: 3px solid #4E35EA;
+	color: #4E35EA;
+	padding: 11px 32px;
+	transition-duration: 0.35s;
+}
+
+img.feature {
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 1200px) {
+	.benvenuto {
+		text-align: center;
+		margin: auto;
+		width: 50vw;
+		padding: 0px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.benvenuto {
+		text-align: center;
+		margin: auto;
+		width: 90vw;
+		padding: 0px;
+	}
+	.features {
+		padding-top: 2em;
+	}
+	.bottone_dizionario {
+		padding: 0.8em 1.6em;
+	}
+}
